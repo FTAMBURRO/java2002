@@ -1,4 +1,4 @@
-package com.coderhouse.model;
+package com.coderhouse.demo.model;
 
 import javax.persistence.*;
 import java.util.List;
@@ -79,4 +79,3 @@ public class Cliente {
         this.ventas = ventas;
     }
 }
-

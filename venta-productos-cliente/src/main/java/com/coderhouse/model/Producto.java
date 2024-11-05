@@ -2,6 +2,10 @@ package com.coderhouse.model;
 
 import javax.persistence.*;
 import java.util.List;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
 @Table(name = "Producto")
